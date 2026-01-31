@@ -39,6 +39,7 @@ func _process(delta: float) -> void:
 			
 			if can_move_to(input_direction * Main.TILE_SIZE):
 				move_to(input_direction * Main.TILE_SIZE)
+
 	if Input.is_action_just_pressed("mask_swap"):
 		if current_mask && inventory_mask:
 			swap_current_mask()
