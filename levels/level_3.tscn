@@ -20,10 +20,6 @@ position = Vector2(496, 432)
 
 [node name="Player" parent="WorldPlacedObjects" index="1"]
 position = Vector2(496, 432)
-move_duration = null
-tween_transition = null
-tween_ease = null
-enabled = null
 
 [node name="LevelCompleteOverlay" type="PanelContainer" parent="." index="5"]
 visible = false
